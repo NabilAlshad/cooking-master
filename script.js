@@ -12,6 +12,8 @@ const search = document.getElementById('search');
 search.addEventListener('click', function() {
     const inputFood = document.getElementById('input').value;
     fetchData(inputFood);
+    const foodDetails = document.getElementById('Food-Details');
+    foodDetails.style.display = 'none';
 
 })
 
@@ -32,6 +34,8 @@ const displayData = (items) => {
         document.getElementById('input').value = '';
         div.addEventListener('click', () => {
             displayDetails(`${item.strMeal}`)
+            const foodDetails = document.getElementById('Food-Details');
+            foodDetails.style.display = 'block';
         })
     });
 }
