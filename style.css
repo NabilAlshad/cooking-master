@@ -1,0 +1,109 @@
+body {
+    padding: 10px;
+}
+
+.title h1 {
+    width: 400px;
+    color: tomato;
+    font-size: 40px;
+    box-shadow: 10px 10px tomato;
+    font-family: sans-serif;
+    margin: 30px auto;
+    text-align: center;
+}
+
+#search-text {
+    color: tomato;
+    font-size: 40px;
+    font-family: cursive;
+    margin: 0px auto;
+}
+
+.input-field {
+    width: 40%;
+    margin: 200px auto;
+}
+
+input[type="text"] {
+    width: 300px;
+    border: 2px solid tomato;
+    height: 40px;
+    border-radius: 10px;
+    margin-left: 20px;
+    opacity: .5;
+    text-align: center;
+    font-size: 20px;
+}
+
+.input-field button {
+    width: 100px;
+    background-color: tomato;
+    height: 45px;
+    border: none;
+    border-radius: 10px;
+    font-family: sans-serif;
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+.input-field button:hover {
+    background-color: turquoise;
+}
+
+#Food-items {
+    width: 80%;
+    display: grid;
+    padding: 20px;
+    margin: 10px auto;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.item img {
+    width: 200px;
+    border: 2px solid tomato;
+    margin: 10px auto;
+    box-shadow: 5px 5px salmon;
+    border-radius: 20px;
+}
+
+#not-found {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    color: tomato;
+    width: 80%;
+    margin-left: 400px;
+}
+
+h1#not-found {
+    font-size: 40px;
+}
+
+#Food-Details {
+    display: grid;
+    width: 50%;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 10px auto;
+}
+
+#Food-Details img {
+    width: 300px;
+    border: 2px solid tomato;
+    border-radius: 20px;
+    margin: 10px auto;
+}
+
+#Food-Details h3,
+h2,
+li {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#Food-Details li {
+    list-style-type: square;
+}
+
+.item h3 {
+    font-family: sans-serif;
+}
