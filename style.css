@@ -13,15 +13,16 @@ body {
 }
 
 #search-text {
+    width: 400px;
     color: tomato;
     font-size: 40px;
-    font-family: cursive;
     margin: 0px auto;
+    font-family: cursive;
 }
 
 .input-field {
     width: 40%;
-    margin: 200px auto;
+    margin: 50px auto;
 }
 
 input[type="text"] {
